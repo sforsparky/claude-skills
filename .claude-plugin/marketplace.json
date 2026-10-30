@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sforsparky",
+  "description": "Mark Guillermo's Claude Code skills.",
+  "owner": { "name": "Mark Guillermo", "url": "https://github.com/sforsparky" },
+  "plugins": [
+    {
+      "name": "project-handoff",
+      "description": "Rewrite HANDOFF.md so the next session picks up cold, then offer to clear the session.",
+      "source": "./plugins/project-handoff",
+      "category": "productivity"
+    },
+    {
+      "name": "harvest-day",
+      "description": "Rebuild a day's Claude Code work time from session transcripts and log it to Harvest.",
+      "source": "./plugins/harvest-day",
+      "category": "productivity"
+    }
+  ]
+}

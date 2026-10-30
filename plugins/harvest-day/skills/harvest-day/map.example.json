@@ -1,0 +1,13 @@
+{
+  "_doc": "Folder -> Harvest project map for /harvest-day. Lives at ~/.claude/harvest-day/map.json. Keys in 'folders' are path prefixes (~ allowed); longest match wins, worktrees under a repo inherit it. 'ignore' prefixes are never logged. 'roots' are parent folders whose direct children count as one repo when grouping unmapped work.",
+  "projects": {
+    "example": { "label": "Example Client / Example Project", "project_id": 0, "task_id": 0 }
+  },
+  "folders": {
+    "~/Developer/example-client-site": "example"
+  },
+  "ignore": [
+    "~/Library/Application Support/Claude/scratch-workspaces"
+  ],
+  "roots": ["~/Developer", "~/Developer/projects"]
+}

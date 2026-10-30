@@ -1,0 +1,9 @@
+{
+  "name": "project-handoff",
+  "version": "1.0.0",
+  "description": "Rewrite HANDOFF.md at the repo root with where the work stands, so the next session picks up cold, then offer to clear the session.",
+  "author": { "name": "Mark Guillermo", "url": "https://github.com/sforsparky" },
+  "repository": "https://github.com/sforsparky/claude-skills",
+  "license": "MIT",
+  "keywords": ["handoff", "session", "context"]
+}

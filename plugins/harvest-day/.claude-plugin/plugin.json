@@ -1,0 +1,9 @@
+{
+  "name": "harvest-day",
+  "version": "1.0.0",
+  "description": "Rebuild a day's Claude Code work time from session transcripts, grouped by project folder, and log it to Harvest after you approve it.",
+  "author": { "name": "Mark Guillermo", "url": "https://github.com/sforsparky" },
+  "repository": "https://github.com/sforsparky/claude-skills",
+  "license": "MIT",
+  "keywords": ["harvest", "time-tracking", "timesheet"]
+}
